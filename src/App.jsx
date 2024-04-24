@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div>
-      <h1>Weather App</h1>
+      <h1>Current Weather</h1>
       {temperature !== null ? (
         <p>Current Temperature: {temperature}°C</p>
       ) : (
